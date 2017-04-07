@@ -161,7 +161,7 @@ window.carbon = window.carbon || {};
                 _.each(selections, function(selection) {
                     images.push({
                         'value': selection[valueType],
-                        'url': selection.url
+                        'url': selection.sizes.thumbnail.url
                     });
                 });
 
