@@ -1,21 +1,27 @@
 {
-  "name": "schrapel/carbon-fields-image-gallery",
+  "name": "sachittandukar/carbon-fields-image-gallery",
   "type": "wordpress-plugin",
   "license": "MIT",
-  "description": "Extends the base Carbon Fields with a ImageGallery field.",
-  "homepage": "https://github.com/schrapel/carbon-fields-image-gallery",
+  "description": "Extends the base Carbon Fields with a ImageGallery field. Based on https://github.com/schrapel/carbon-fields-image-gallery",
+  "homepage": "https://github.com/sachittandukar/carbon-fields-image-gallery",
   "authors": [
     {
-      "name": "Toby Schrapel",
-      "email": "toby@tobyschrapel.com",
-      "homepage": "https://github.com/schrapel"
+      "name": "Sachit Tandukar",
+      "email": "linkin_sachit@hotmail.com",
+      "homepage": "https://github.com/sachittandukar"
     }
   ],
   "keywords": [
-    "wordpress", "wp"
+    "wordpress",
+    "wp"
   ],
+  "autoload": {
+    "files": [
+      "carbon-fields-image-gallery.php"
+    ]
+  },
   "support": {
-    "issues": "https://github.com/schrapel/carbon-fields-image-gallery"
+    "issues": "https://github.com/sachittandukar/carbon-fields-image-gallery"
   },
   "require": {
     "php": ">=5.4.0"
