@@ -24,6 +24,7 @@
     "issues": "https://github.com/sachittandukar/carbon-fields-image-gallery"
   },
   "require": {
-    "php": ">=5.4.0"
+    "php": ">=5.4.0",
+    "htmlburger/carbon-fields": "1.*"
   }
 }
